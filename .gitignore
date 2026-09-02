@@ -1,0 +1,12 @@
+# Excelがブックを開いている間に作る一時ファイル
+~$*.xls*
+
+# 個人の動作確認用マクロブックはソース管理しない
+*.xlsm
+*.xlsb
+
+# Windows / editor
+Thumbs.db
+.DS_Store
+.vscode/
+
